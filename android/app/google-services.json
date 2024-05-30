@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077602217163",
+    "project_id": "reimagine-fddda",
+    "storage_bucket": "reimagine-fddda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077602217163:android:24fef53b2a82c576b0bf4e",
+        "android_client_info": {
+          "package_name": "com.example.reimagine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8TjfdsH6lN5kcQSY_JnyskVBAMyro4nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
