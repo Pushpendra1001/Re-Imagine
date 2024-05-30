@@ -1,5 +1,3 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
 import 'package:reimagine/Common/data.dart';
 import 'package:reimagine/Pages/LocationPage.dart';

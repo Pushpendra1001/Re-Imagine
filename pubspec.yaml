@@ -51,6 +51,7 @@ dependencies:
   google_gemini: ^0.1.2
   google_generative_language_api: ^0.2.1
   video_360: ^0.0.9
+  font_awesome_flutter: ^10.7.0
 
 dev_dependencies:
   flutter_test:

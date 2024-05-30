@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:video_360/video_360.dart';
 
-class MyApp extends StatefulWidget {
+class VirtualVideo extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _VirtualVideoState createState() => _VirtualVideoState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _VirtualVideoState extends State<VirtualVideo> {
   Video360Controller? controller;
 
   String durationText = '';

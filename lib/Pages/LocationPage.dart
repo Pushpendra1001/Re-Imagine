@@ -1,6 +1,5 @@
-// ignore_for_file: unused_import, file_names
-
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:reimagine/Pages/view360.dart';
 
@@ -13,7 +12,7 @@ class LocationPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Victoria Mill'),
+        title: const Text('360 View'),
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -44,15 +43,28 @@ class LocationPage extends StatelessWidget {
                         height: 70,
                         width: double.infinity,
                         decoration: BoxDecoration(
-                            color: Colors.teal[900],
+                            color: const Color.fromARGB(255, 0, 0, 0),
                             borderRadius: BorderRadius.circular(10)),
-                        child: Center(
-                            child: Text(
-                          "View in 360",
-                          style: GoogleFonts.juliusSansOne(
-                              textStyle: const TextStyle(
-                                  fontSize: 24, color: Colors.white)),
-                        )),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "Explore in 360",
+                              style: GoogleFonts.juliusSansOne(
+                                  textStyle: const TextStyle(
+                                      fontSize: 24, color: Colors.white)),
+                            ),
+                            SizedBox(
+                              width: 20,
+                            ),
+                            Center(
+                                child: Icon(
+                              FontAwesomeIcons.vrCardboard,
+                              color: Colors.teal,
+                            )),
+                          ],
+                        ),
                       ),
                     )
                   : Container(),

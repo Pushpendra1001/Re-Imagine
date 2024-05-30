@@ -1,70 +1,70 @@
 List wtpImages = [
   {
-    "title": "Street View",
+    "title": "WTP",
     "img": "assets/wtp/wtp1.jpg",
     "view": true,
   },
   {
-    "title": "Street View",
+    "title": "Front View WTP",
     "img": "assets/wtp/wtp2.jpg",
     "view": true,
   },
   {
-    "title": "Street View",
+    "title": "Side View WTP",
     "img": "assets/wtp/wtp3.jpg",
     "view": true,
   },
   {
-    "title": "View",
+    "title": "View from Road",
     "img": "assets/wtp/wtp4.jpg",
     "view": true,
   },
   {
-    "title": "Main",
+    "title": "Inner Shops",
     "img": "assets/wtp/wtp5.jpg",
     "view": true,
   },
   {
-    "title": "Window View",
+    "title": "Food Area",
     "img": "assets/wtp/wtp6.jpg",
     "view": true,
   },
   {
-    "title": "View",
+    "title": "Ice Cream Shop",
     "img": "assets/wtp/wtp7.jpg",
-    "view": false,
+    "view": true,
   },
   {
-    "title": "Locker",
+    "title": "Dubai Bazar",
     "img": "assets/wtp/wtp8.jpg",
-    "view": false,
+    "view": true,
   },
   {
     "title": "View",
     "img": "assets/wtp/wtp9.jpg",
-    "view": false,
+    "view": true,
   },
   {
-    "title": "Lab",
+    "title": "Antique Shop",
     "img": "assets/wtp/wtp10.jpg",
     "view": true,
   },
   {
-    "title": "Sitting Area",
+    "title": "Inner View",
     "img": "assets/wtp/wtp11.jpg",
     "view": true,
   },
   {
-    "title": "View",
+    "title": "Main Entrense",
     "img": "assets/wtp/wtp12.jpg",
     "view": true,
   },
 ];
 
 final List<String> paths = [
-  "assets/Street View 360 1.jpg",
-  "assets/Street View 360.jpg",
-  "assets/Street View 3601.jpg",
-  "assets/Street View 3602.jpg",
-  "assets/Street View 3603.jpg",
+  "assets/subodh/ss2.jpg",
+  "assets/subodh/ss1.jpg",
+  "assets/wtp/wtp1.jpg",
+  "assets/wtp/wtp5.jpg",
+  "assets/wtp/wtp6.jpg",
 ];

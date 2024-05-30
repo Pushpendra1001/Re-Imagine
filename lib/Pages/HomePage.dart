@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:reimagine/Pages/videoGallery.dart';
+
 import 'package:reimagine/Pages/view360page.dart';
 
 class HomePage extends StatefulWidget {
@@ -25,8 +26,6 @@ class _HomePageState extends State<HomePage> {
           style: TextStyle(
             fontFamily: 'Gilroy',
             fontSize: 28,
-            // fontWeight: FontWeight.bold,
-
             letterSpacing: 3.0,
             shadows: [
               Shadow(
@@ -73,14 +72,28 @@ class _HomePageState extends State<HomePage> {
                   height: 70,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                      color: Colors.teal[900],
+                      color: const Color.fromARGB(255, 0, 0, 0),
+                      border: Border.all(color: Colors.white12),
                       borderRadius: BorderRadius.circular(10)),
                   child: Center(
-                      child: Text(
-                    "Explore in 360",
-                    style: GoogleFonts.juliusSansOne(
-                        textStyle:
-                            const TextStyle(fontSize: 24, color: Colors.white)),
+                      child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Explore in 360",
+                        style: GoogleFonts.juliusSansOne(
+                            textStyle: const TextStyle(
+                                fontSize: 24, color: Colors.white)),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Icon(
+                        FontAwesomeIcons.vrCardboard,
+                        color: Colors.teal,
+                      )
+                    ],
                   )),
                 ),
               ),

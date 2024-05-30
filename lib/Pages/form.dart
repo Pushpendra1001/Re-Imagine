@@ -38,9 +38,7 @@ class _UploadLocationPageState extends State<UploadLocationPage> {
       setState(() {
         _coverImage = file;
       });
-    } catch (e) {
-      // Handle errors or cancelation
-    }
+    } catch (e) {}
   }
 
   void _select360Image(BuildContext context) async {
@@ -51,9 +49,7 @@ class _UploadLocationPageState extends State<UploadLocationPage> {
           _360Images.add(file);
         });
       }
-    } catch (e) {
-      // Handle errors or cancelation
-    }
+    } catch (e) {}
   }
 
   void _uploadLocation() async {
@@ -62,9 +58,6 @@ class _UploadLocationPageState extends State<UploadLocationPage> {
       setState(() {
         isLoading = true;
       });
-
-      // Implement your Firebase storage upload logic here
-      // After uploading, you will get URLs back which you should store in Firestore
 
       String coverImageUrl = await uploadImageToFirebase(_coverImage!);
       List<String> urls360 = [];
