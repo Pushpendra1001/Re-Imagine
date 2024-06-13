@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:reimagine/Pages/360VideoScreen.dart';
+import 'package:reimagine/Pages/VideoPlayerScreen.dart';
 
 import 'package:reimagine/Pages/view360page.dart';
 
@@ -82,6 +84,43 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Text(
                         "Explore in 360",
+                        style: GoogleFonts.juliusSansOne(
+                            textStyle: const TextStyle(
+                                fontSize: 24, color: Colors.white)),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Icon(
+                        FontAwesomeIcons.vrCardboard,
+                        color: Colors.teal,
+                      )
+                    ],
+                  )),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => VirtualVideo()));
+                },
+                child: Container(
+                  height: 70,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 0, 0, 0),
+                      border: Border.all(color: Colors.white12),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Center(
+                      child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Experience Video In 360",
                         style: GoogleFonts.juliusSansOne(
                             textStyle: const TextStyle(
                                 fontSize: 24, color: Colors.white)),

@@ -48,11 +48,6 @@ class TextOnly extends StatefulWidget {
 class _TextOnlyState extends State<TextOnly> {
   bool loading = false;
   List textChat = [];
-  @override
-  void initState() {
-    super.initState();
-    textChat.add(prompt1);
-  }
 
   List textWithImageChat = [];
 
@@ -91,7 +86,7 @@ At SS Jain Subodh PG College, the pursuit of knowledge is not just a duty; it is
       setState(() {
         loading = false;
         textChat.add({
-          "role": "Gemini",
+          "role": "Shakti",
           "text": value.text,
         });
       });
@@ -100,7 +95,7 @@ At SS Jain Subodh PG College, the pursuit of knowledge is not just a duty; it is
       setState(() {
         loading = false;
         textChat.add({
-          "role": "Gemini",
+          "role": "Shakti",
           "text": error.toString(),
         });
       });

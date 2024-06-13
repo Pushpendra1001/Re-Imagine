@@ -55,7 +55,7 @@ List wtpImages = [
     "view": true,
   },
   {
-    "title": "Main Entrense",
+    "title": "Main Entrance ",
     "img": "assets/wtp/wtp12.jpg",
     "view": true,
   },

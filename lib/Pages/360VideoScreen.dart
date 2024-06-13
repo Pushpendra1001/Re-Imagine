@@ -36,7 +36,7 @@ class _VirtualVideoState extends State<VirtualVideo> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Video 360 Plugin example app'),
+        title: const Text('Experience Video in 360 '),
       ),
       body: Stack(
         children: [
