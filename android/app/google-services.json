@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "241215668669",
+    "project_id": "reimagine-7f6da",
+    "storage_bucket": "reimagine-7f6da.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241215668669:android:e368bca88f0aa389b2d2d4",
+        "android_client_info": {
+          "package_name": "com.example.reimagine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAllBfaIo3pi0CASATSTB9s244SD6uJxXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
